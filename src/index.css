@@ -1,0 +1,19 @@
+/* Minimal base — the bright theme lives in App.css */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Segoe UI Rounded', system-ui, sans-serif;
+  -webkit-tap-highlight-color: transparent; /* no gray flash on tap */
+  overscroll-behavior: none;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+}
