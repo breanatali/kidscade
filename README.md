@@ -14,12 +14,21 @@ A bright, cheerful arcade of mini-games for toddlers — built with React + Vite
 - 🔷 **Shape Find** — hear a shape named and find it
 - 🔢 **Counting** — count the fruit, tap the right number
 
-Plus a soft background music-box loop (mutable) throughout the whole arcade.
+Plus a soft background music-box loop (with a mute button) throughout the whole arcade.
+
+## Screenshots
+
+| | |
+|---|---|
+| ![Home](screenshots/home.png) | ![Balloon Pop](screenshots/balloon-pop.png) |
+| ![Animal Sounds](screenshots/animal-sounds.png) | ![Memory Match](screenshots/memory-match.png) |
+| ![Color Find](screenshots/color-find.png) | ![Music Maker](screenshots/music-maker.png) |
+| ![Shape Find](screenshots/shape-find.png) | ![Counting](screenshots/counting.png) |
 
 ## Tech
 
 - React (hooks, components, props)
-- Web Audio API — sound effects and background music synthesized in code, no audio files
+- Web Audio API — most sound effects and the background music are synthesized in code (Animal Sounds streams real recordings from Wikimedia Commons)
 - Web Speech API — spoken prompts for Color Find, Shape Find, and Counting
 - CSS animations — 3D card flips, floating balloons, bounce and shake effects
 - localStorage — remembers the music on/off preference
